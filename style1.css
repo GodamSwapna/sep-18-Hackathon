@@ -1,0 +1,111 @@
+body{
+    background: url(///home/dell/Downloads/beauty%204.jpeg);
+    background-repeat: repeat;
+    background-attachment:fixed;
+    background-position: center;
+    background-size: cover;
+
+    }
+    *
+    {
+        margin:0;
+        padding:0;
+    }
+    #menu ul
+    {list-style: none;}
+    #menu ul li
+    {
+        background-color:rgb(86, 86, 216);
+        border:1px solid rgb(22, 14, 14);
+        width: 254px;
+        height: 40px;
+        text-align:center;
+        line-height: 40px;
+        float:left;
+        position: relative;
+    }
+    #menu ul li a
+    {
+        text-decoration: none;
+        color:white;
+        font-display: 20px;
+    
+    }
+    #menu ul li a:hover
+    {
+        background-color:green;
+    }
+    #menu ul ul
+    {
+        position:absolute;
+        display:none;
+    }
+    #menu ul li:hover>ul
+    {
+        display:block; 
+        /* show the content */
+    }
+    #image
+    {
+        width:60%;
+    }
+    #image
+    {
+        display: flex;
+        justify-content: right;
+        align-items: center;
+        height: 300px;
+        text-align: center;
+    
+    }
+    .search-box
+    {
+        position:absolute;
+        top:50%;
+        left:50%;
+        transform: translate(-50%,-50%);
+        background: #2f3640;
+        height: 40px;
+    }
+    .search-btn
+    {
+        color:#e84118;
+        float:right;
+        width:40px;
+        height: 40px;
+        border-radius: 50%;
+        background: #2f3640;
+        display:flex;
+        justify-content: center;
+        align-items: center;
+    }
+     .search-txt
+    {
+        border:none;
+        background: none;
+        outline: none;
+        float: left;
+        padding: 0;
+        color: white;
+        font-size: 16px;
+        transition: 0.4s;
+        line-height:40px;
+    }
+    .search-box:hover> .search-btn{
+        background: white;
+    }
+    .search-box:hover > .search-txt{
+        width: 240px;
+        padding: 0 6px;
+    }  
+    .title{
+        position: absolute;
+        top:50% ;
+        left: 45%;
+        transform: translate(-50%,-50%);
+    }
+    .title h1{
+        font-size: 300%;
+        color: teal;
+
+    }
